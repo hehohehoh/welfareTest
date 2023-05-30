@@ -1,0 +1,16 @@
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://127.0.0.1:5432/welfare
+    username: postgres
+    password: welfare1
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    open-in-view: false
+    generate-ddl: true
+        
